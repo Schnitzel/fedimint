@@ -18,7 +18,6 @@ export FM_VERBOSE_OUTPUT=0
 source scripts/build.sh
 
 devimint dev-fed 2>/dev/null &
-echo $! >> $FM_PID_FILE
 eval "$(devimint env)"
 
 SHELL=$(which bash) tmuxinator local

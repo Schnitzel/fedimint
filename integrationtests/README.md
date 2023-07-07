@@ -66,8 +66,3 @@ You can now run the integration tests against real instances of Bitcoin and Ligh
 export FM_TEST_USE_REAL_DAEMONS=1
 cargo test -p fedimint-tests -- --test-threads=1
 ```
-
-If you wish to clean-up the services run:
-```shell
-kill_fedimint_processes
-```
